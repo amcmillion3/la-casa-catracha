@@ -5,6 +5,9 @@ function Menu() {
     return(
         <div>
             <div>
+                <h1>MENU</h1>
+            </div>
+            <div>
                 <h2>APERITIVOS</h2>
                 <div>
                     <h4>Fiesta Catracha</h4>
@@ -334,7 +337,7 @@ function Menu() {
                     <div>
                         <ul>
                             <li>
-                                <h4>Judos Naturales</h4>
+                                <h4>Jugos Naturales</h4>
                                 <p>Natural fruit juices</p>
                             </li>
                             <li>
