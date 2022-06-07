@@ -20,23 +20,26 @@ function HomeSlider() {
       };
       
       return (
-        <Slider {...settings}>
-          <div>
-            <img src={food1} alt="food" height={300} width={300} />
+          <div className="mt-20">
+              <Slider {...settings} >
+                <div>
+                    <img src={food1} alt="food" height={300} width={300} />
+                </div>
+                <div>
+                    <img src={food2} alt="food" height={300} width={300} />
+                </div>
+                <div>
+                    <img src={food3} alt="food" height={300} width={300} />
+                </div>
+                <div>
+                    <img src={food4} alt="food" height={300} width={300} />
+                </div>
+                <div>
+                    <img src={food5} alt="food" height={300} width={300} />
+                </div>
+              </Slider>
           </div>
-          <div>
-            <img src={food2} alt="food" height={300} width={300} />
-          </div>
-          <div>
-            <img src={food3} alt="food" height={300} width={300} />
-          </div>
-          <div>
-            <img src={food4} alt="food" height={300} width={300} />
-          </div>
-          <div>
-            <img src={food5} alt="food" height={300} width={300} />
-          </div>
-        </Slider>
+        
       );
 }
 
