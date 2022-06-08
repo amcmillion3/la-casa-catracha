@@ -9,17 +9,17 @@ function Nav() {
     return (
         <div className="flex items-center justify-between border-b border-gray-400 py-8">
           <div className="w-1/2 m-4">
-            <img src={logo} alt="logo" height={100} width={100} />
+            <img src={logo} alt="logo" height={125} width={125} />
           </div>
           <nav>
-            <section className="flex lg:hidden">
+            <section className="flex mr-8 lg:hidden">
               <div
                 className="space-y-2"
                 onClick={() => setIsNavOpen((prev) => !prev)} 
               >
-                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+                <span className="block h-1.5 w-10 animate-pulse bg-gray-600"></span>
+                <span className="block h-1.5 w-10 animate-pulse bg-gray-600"></span>
+                <span className="block h-1.5 w-10 animate-pulse bg-gray-600"></span>
               </div>
     
               <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}> 
@@ -57,7 +57,7 @@ function Nav() {
               </div>
             </section>
     
-            <ul className="hidden space-x-8 lg:flex">
+            <ul className="hidden space-x-8 lg:flex lg:pr-4 lg:text-2xl">
               <li>
                 <a href="/">Home</a>
               </li>
