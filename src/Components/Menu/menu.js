@@ -9,7 +9,7 @@ function Menu() {
             </div>
             <div>
                 <div className="flex justify-center">
-                    <h2 className="flex justify-center bg-catracha-blue text-white mt-4 w-2/3 text-2xl font-medium">APERITIVOS</h2>
+                    <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">APERITIVOS</h2>
                 </div>
                 <div className="flex flex-col items-center">
                     <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Fiesta Catracha</h4>
@@ -54,7 +54,7 @@ function Menu() {
             </div>
             <div>
                 <div className="flex justify-center">
-                    <h2 className="flex justify-center text-center bg-catracha-blue text-white mt-4 w-2/3 text-2xl font-medium">SOPAS Y ENSALADAS</h2>
+                    <h2 className="flex justify-center text-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">SOPAS Y ENSALADAS</h2>
                 </div>
                 <div className="flex flex-col items-center">
                     <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Sopa de Res</h4>
@@ -101,7 +101,7 @@ function Menu() {
             </div>
             <div>
                 <div className="flex justify-center">
-                    <h2 className="flex justify-center bg-catracha-blue text-white mt-4 w-2/3 text-2xl font-medium">SÁNDWICHES</h2>
+                    <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">SÁNDWICHES</h2>
                 </div>
                 <div>
                     <ul className="lg:grid lg:grid-cols-2">
@@ -139,7 +139,7 @@ function Menu() {
             <div className="lg:grid lg:grid-cols-2">
                 <div>
                     <div className="flex justify-center">
-                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 w-2/3 text-2xl font-medium">DESAYUNOS</h2>
+                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">DESAYUNOS</h2>
                     </div>
                     <div>
                         <ul>
@@ -172,7 +172,40 @@ function Menu() {
                 </div>
                 <div>
                     <div className="flex justify-center">
-                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 w-2/3 text-2xl font-medium">ALMUERZO Y CENA</h2>
+                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">PLATOS HONDUREÑOS</h2>
+                    </div>
+                    <div>
+                        <ul>
+                            <li className="flex flex-col items-center">
+                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Yuca con Chicharrón</h4>
+                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Cassava, pork rinds, cabbage, tomato sauce, and chimol</p>
+                            </li>
+                            <li className="flex flex-col items-center">
+                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Yuca con Pata</h4>
+                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Cassava, pig feet, cabbage, tomato sauce, and chimol</p>
+                            </li>
+                            <li className="flex flex-col items-center">
+                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Pastelitos</h4>
+                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">3 Corn empanadas filled with ground beef and rice served with cabbage, red sauce, and chimol</p>
+                            </li>
+                            <li className="flex flex-col items-center">
+                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Tajadas al Estilo Ceiba</h4>
+                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Fried green bananas, cabbage, red sauce, house dressing, encurtido your choice of meat
+                                    Pollo Frito | Carne Asada | Chuleta | Carne Molida
+                                </p>
+                            </li>
+                            <li className="flex flex-col items-center">
+                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Tajadas al Estilo Honduras</h4>
+                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Fried green bananas, cabbage, red sauce, chimol, and your choice of meat
+                                    Pollo Frito | Carne Asada | Chuleta | Carne Molida
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div className="flex justify-center">
+                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">ALMUERZO Y CENA</h2>
                     </div>
                     <div>
                         <ul>
@@ -242,139 +275,108 @@ function Menu() {
                     </div>
                 </div>
                 <div>
-                    <div className="flex justify-center">
-                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 w-2/3 text-2xl font-medium">PLATOS HONDUREÑOS</h2>
+                    <div>
+                        <div className="flex justify-center">
+                            <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">ACOMPAÑANTES</h2>
+                        </div>
+                        <div>
+                            <ul className="lg:grid lg:grid-cols-2">
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Arroz</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">White or Yello Rice</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Tostones | Maduros</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Fried green or Sweet Plantain</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Frijoles</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Red, Black, or Refried</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Papas Fritas</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">French Fries</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Tajadas de Guineo</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Fried Green Banasas</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Queso Fresco</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Fresh Honduran Cheese</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Ensalada de Repollo | Lechuga</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Side Cabbage or Lettuce Salad</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Aguacate</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Sliced Avocado</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Yuca Frita | Hervida</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Cassava Fried or Boiled</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Totillas Hechas a Mano</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Handmade corn or flour tortillas</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div>
-                        <ul>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Yuca con Chicharrón</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Cassava, pork rinds, cabbage, tomato sauce, and chimol</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Yuca con Pata</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Cassava, pig feet, cabbage, tomato sauce, and chimol</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Pastelitos</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">3 Corn empanadas filled with ground beef and rice served with cabbage, red sauce, and chimol</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Tajadas al Estilo Ceiba</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Fried green bananas, cabbage, red sauce, house dressing, encurtido your choice of meat
-                                    Pollo Frito | Carne Asada | Chuleta | Carne Molida
-                                </p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Tajadas al Estilo Honduras</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Fried green bananas, cabbage, red sauce, chimol, and your choice of meat
-                                    Pollo Frito | Carne Asada | Chuleta | Carne Molida
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <div className="flex justify-center">
-                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 w-2/3 text-2xl font-medium">ACOMPAÑANTES</h2>
+                        <div className="flex justify-center">
+                            <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">POSTRES</h2>
+                        </div>
+                        <div>
+                            <ul className="lg:grid lg:grid-cols-2">
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Arroz con Leche</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Rice Pudding</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Tres Leche</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">3 Milk Cake</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Flan de Vainilla</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Vanilla Flan</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Taco Dulce</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Sweet taco, vanilla ice cream, whipped cream, and chocolate syrup</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div>
-                        <ul>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Arroz</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">White or Yello Rice</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Tostones | Maduros</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Fried green or Sweet Plantain</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Frijoles</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Red, Black, or Refried</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Papas Fritas</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">French Fries</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Tajadas de Guineo</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Fried Green Banasas</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Queso Fresco</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Fresh Honduran Cheese</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Ensalada de Repollo | Lechuga</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Side Cabbage or Lettuce Salad</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Aguacate</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Sliced Avocado</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Yuca Frita | Hervida</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Cassava Fried or Boiled</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Totillas Hechas a Mano</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Handmade corn or flour tortillas</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <div className="flex justify-center">
-                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 w-2/3 text-2xl font-medium">POSTRES</h2>
-                    </div>
-                    <div>
-                        <ul>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Arroz con Leche</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Rice Pudding</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Tres Leche</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">3 Milk Cake</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Flan de Vainilla</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Vanilla Flan</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Taco Dulce</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Sweet taco, vanilla ice cream, whipped cream, and chocolate syrup</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <div className="flex justify-center">
-                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 w-2/3 text-2xl font-medium">BEBIDAS</h2>
-                    </div>
-                    <div>
-                        <ul>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Jugos Naturales</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Natural fruit juices</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Café Cubano</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Cuban Coffee</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Sodas Latinas</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Latin Sodas</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Café con Leche</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Coffee with milk</p>
-                            </li>
-                            <li className="flex flex-col items-center">
-                                <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Sodas de Maquina</h4>
-                                <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Fountain Drink</p>
-                            </li>
-                        </ul>
+                        <div className="flex justify-center">
+                            <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">BEBIDAS</h2>
+                        </div>
+                        <div>
+                            <ul className="lg:grid lg:grid-cols-2">
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Jugos Naturales</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Natural fruit juices</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Café Cubano</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Cuban Coffee</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Sodas Latinas</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Latin Sodas</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Café con Leche</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Coffee with milk</p>
+                                </li>
+                                <li className="flex flex-col items-center">
+                                    <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Sodas de Maquina</h4>
+                                    <p className="flex justify-center text-center w-2/3 mt-2 text-lg">Fountain Drink</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
