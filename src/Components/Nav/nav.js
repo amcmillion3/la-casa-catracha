@@ -9,7 +9,7 @@ function Nav() {
     return (
         <div className="flex items-center justify-between border-b border-gray-400 py-8">
           <div className="w-1/2 m-4">
-            <img src={logo} alt="logo" height={125} width={125} />
+            <img src={logo} alt="logo" className="w-32 h-32 lg:w-48 lg:h-48 lg:ml-10" />
           </div>
           <nav>
             <section className="flex mr-8 lg:hidden">
@@ -57,7 +57,7 @@ function Nav() {
               </div>
             </section>
     
-            <ul className="hidden space-x-8 lg:flex lg:pr-4 lg:text-2xl">
+            <ul className="hidden space-x-8 lg:flex lg:pr-4 lg:text-4xl lg:mr-20">
               <li>
                 <a href="/">Home</a>
               </li>
