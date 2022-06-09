@@ -4,29 +4,29 @@ function Contact() {
 
     return(
         <div>
-            <div>
-                <h1>CONTACT</h1>
+            <div className="flex justify-center bg-catracha-blue text-white border-t-4 border-b-4 border-solid border-black">
+                <h1 className="text-4xl font-medium">CONTACT</h1>
             </div>
-            <div>
-                <h2>LA CASA CATRACHA</h2>
-                <p>120 N. Dale Mabry Hwy</p>
-                <p>Tampa, FL 33609</p>
-                <p>(813) 512-7924</p>
-                <div>
-                    <h3>HOURS OF OPERATION</h3>
-                    <p>Sunday 10AM-9PM</p>
-                    <p>Monday 10AM-9PM</p>
-                    <p>Tuesday Closed</p>
-                    <p>Wednesday 10AM-9PM</p>
-                    <p>Thursday 10AM-9PM</p>
-                    <p>Friday 10AM-12AM</p>
-                    <p>Saturday 10AM-12AM</p>
+            <div className="flex flex-col items-center mt-10">
+                <h2 className="text-2xl font-bold">LA CASA CATRACHA</h2>
+                <p className="text-lg">120 N. Dale Mabry Hwy</p>
+                <p className="text-lg">Tampa, FL 33609</p>
+                <p className="text-lg">(813) 512-7924</p>
+                <div className="flex flex-col items-center mt-10">
+                    <h3 className="text-xl font-semibold">HOURS OF OPERATION</h3>
+                    <p className="text-lg">Sunday 10AM-9PM</p>
+                    <p className="text-lg">Monday 10AM-9PM</p>
+                    <p className="text-lg">Tuesday Closed</p>
+                    <p className="text-lg">Wednesday 10AM-9PM</p>
+                    <p className="text-lg">Thursday 10AM-9PM</p>
+                    <p className="text-lg">Friday 10AM-12AM</p>
+                    <p className="text-lg">Saturday 10AM-12AM</p>
                 </div>
-                <div>
-                    <ul>
-                        <li><a href="https://www.facebook.com/pages/La-Casa-Catracha/">
-                        <img src="https://cdn-icons.flaticon.com/png/512/2504/premium/2504903.png?token=exp=1654568677~hmac=07b7e47baf10dda1a8f92795896c3310" alt="facebook" height={30} width={30} /></a></li>
-                        <li><a href="https://www.instagram.com/lacasacatracha/"><img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png"  alt="instagram" height={30} width={30} /></a></li>
+                <div className="mt-6">
+                    <ul className="flex">
+                        <li className="m-4"><a href="https://www.facebook.com/pages/La-Casa-Catracha/">
+                        <img src="https://cdn-icons.flaticon.com/png/512/2504/premium/2504903.png?token=exp=1654784945~hmac=f0f52db4417e41341f06a21713016df7" alt="facebook" height={30} width={30} /></a></li>
+                        <li className="m-4"><a href="https://www.instagram.com/lacasacatracha/"><img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png"  alt="instagram" height={30} width={30} /></a></li>
                     </ul>
                 </div>
             </div>
