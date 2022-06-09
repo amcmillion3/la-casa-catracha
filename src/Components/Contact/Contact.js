@@ -13,7 +13,7 @@ function Contact() {
                 <p className="text-lg">Tampa, FL 33609</p>
                 <p className="text-lg">(813) 512-7924</p>
                 <div className="flex flex-col items-center mt-10">
-                    <h3 className="text-xl font-semibold">HOURS OF OPERATION</h3>
+                    <h3 className="text-xl font-bold">HOURS OF OPERATION</h3>
                     <p className="text-lg">Sunday 10AM-9PM</p>
                     <p className="text-lg">Monday 10AM-9PM</p>
                     <p className="text-lg">Tuesday Closed</p>
