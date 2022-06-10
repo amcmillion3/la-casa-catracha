@@ -21,6 +21,9 @@ function HomeSlider() {
       
       return (
           <div className="mt-20">
+              <div className="flex justify-center bg-catracha-blue text-white border-t-4 border-b-4 border-solid border-black h-20">
+                <h1 className="flex items-center text-2xl lg:text-6xl font-medium">WELCOME TO LA CASA CATRACHA</h1>
+            </div>
               <Slider {...settings} >
                 <div>
                     <img src={food1} alt="food" className="h-full w-full" />

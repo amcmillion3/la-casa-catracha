@@ -41,16 +41,16 @@ function Nav() {
                   </svg>
                 </div>
                 <ul className="flex flex-col items-center justify-between min-h-[250px]">
-                  <li className="border-b border-gray-400 my-8 uppercase">
+                  <li className="border-b border-gray-400 my-8 uppercase text-2xl">
                     <a href="/">Home</a>
                   </li>
-                  <li className="border-b border-gray-400 my-8 uppercase">
+                  <li className="border-b border-gray-400 my-8 uppercase text-2xl">
                     <a href="/menu">Menu</a>
                   </li>
-                  <li className="border-b border-gray-400 my-8 uppercase">
+                  <li className="border-b border-gray-400 my-8 uppercase text-2xl">
                     <a href="/about">About</a>
                   </li>
-                  <li className="border-b border-gray-400 my-8 uppercase">
+                  <li className="border-b border-gray-400 my-8 uppercase text-2xl">
                     <a href="/contact">Contact</a>
                   </li>
                 </ul>
