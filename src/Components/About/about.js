@@ -6,7 +6,7 @@ function About() {
     return (
         <div>
             <div className="flex justify-center bg-catracha-blue text-white border-t-4 border-b-4 border-solid border-black">
-                <h1 className="text-4xl font-medium">ABOUT</h1>
+                <h1 className="text-4xl font-medium font-splatch py-4">About</h1>
             </div>
             <div className="flex justify-center">
                 <img src={team} alt="team-storefront" className="mt-10 w-full h-full lg:w-1/2 lg:h-screen"/>

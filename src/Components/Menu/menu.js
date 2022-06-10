@@ -7,12 +7,12 @@ function Menu() {
 
     return(
         <div>
-            <div className="flex justify-center bg-catracha-blue text-white border-t-4 border-b-4 border-solid border-black">
-                <h1 className="text-4xl font-medium">MENU</h1>
+            <div className="flex justify-center bg-catracha-blue text-white border-t-4 border-b-4 border-solid border-black py-4">
+                <h1 className="text-4xl font-medium font-splatch">Menu</h1>
             </div>                
             <div>
                 <div className="flex justify-center" data-aos="fade-in fade-up">
-                    <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">APERITIVOS</h2>
+                    <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium font-splatch p-2">Aperitivos</h2>
                 </div>
                 <div className="flex flex-col items-center" data-aos="fade-in fade-up">
                     <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold ">Fiesta Catracha</h4>
@@ -57,7 +57,7 @@ function Menu() {
             </div>
             <div>
                 <div className="flex justify-center" data-aos="fade-in fade-up">
-                    <h2 className="flex justify-center text-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">SOPAS Y ENSALADAS</h2>
+                    <h2 className="flex justify-center text-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium font-splatch p-2">Sopas y Ensaladas</h2>
                 </div>
                 <div className="flex flex-col items-center" data-aos="fade-in fade-up">
                     <h4 className="flex justify-center text-center w-2/3 text-xl mt-4 font-bold">Sopa de Res</h4>
@@ -104,7 +104,7 @@ function Menu() {
             </div>
             <div>
                 <div className="flex justify-center" data-aos="fade-in fade-up">
-                    <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">SÁNDWICHES</h2>
+                    <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium font-splatch p-2">Sándwiches</h2>
                 </div>
                 <div>
                     <ul className="lg:grid lg:grid-cols-2">
@@ -142,7 +142,7 @@ function Menu() {
             <div className="lg:grid lg:grid-cols-2">
                 <div>
                     <div className="flex justify-center" data-aos="fade-in fade-up">
-                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">DESAYUNOS</h2>
+                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium font-splatch p-2">Desayunos</h2>
                     </div>
                     <div>
                         <ul>
@@ -175,7 +175,7 @@ function Menu() {
                 </div>
                 <div>
                     <div className="flex justify-center" data-aos="fade-in fade-up">
-                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">PLATOS HONDUREÑOS</h2>
+                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium font-splatch p-2">Platos Hondureños</h2>
                     </div>
                     <div>
                         <ul>
@@ -208,7 +208,7 @@ function Menu() {
                 </div>
                 <div>
                     <div className="flex justify-center" data-aos="fade-in fade-up">
-                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">ALMUERZO Y CENA</h2>
+                        <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium font-splatch p-2">Almuerzo y Cena</h2>
                     </div>
                     <div>
                         <ul>
@@ -280,7 +280,7 @@ function Menu() {
                 <div>
                     <div>
                         <div className="flex justify-center" data-aos="fade-in fade-up">
-                            <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">ACOMPAÑANTES</h2>
+                            <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium font-splatch p-2">Acompañantes</h2>
                         </div>
                         <div>
                             <ul className="lg:grid lg:grid-cols-2">
@@ -329,7 +329,7 @@ function Menu() {
                     </div>
                     <div>
                         <div className="flex justify-center" data-aos="fade-in fade-up">
-                            <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">POSTRES</h2>
+                            <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium font-splatch p-2">Postres</h2>
                         </div>
                         <div>
                             <ul className="lg:grid lg:grid-cols-2">
@@ -354,7 +354,7 @@ function Menu() {
                     </div>
                     <div>
                         <div className="flex justify-center" data-aos="fade-in fade-up">
-                            <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium">BEBIDAS</h2>
+                            <h2 className="flex justify-center bg-catracha-blue text-white mt-4 lg:mt-8 w-2/3 text-2xl font-medium font-splatch p-2">Bebidas</h2>
                         </div>
                         <div>
                             <ul className="lg:grid lg:grid-cols-2">

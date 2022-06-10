@@ -8,6 +8,9 @@ module.exports = {
         'catracha-blue': '#0073cf',
       }
     },
+    fontFamily: {
+      splatch: ['Splatch']
+    },
   },
   plugins: [],
 }

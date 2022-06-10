@@ -5,15 +5,15 @@ function Contact() {
     return(
         <div>
             <div className="flex justify-center bg-catracha-blue text-white border-t-4 border-b-4 border-solid border-black">
-                <h1 className="text-4xl font-medium">CONTACT</h1>
+                <h1 className="text-4xl font-medium font-splatch py-4">Contact</h1>
             </div>
             <div className="flex flex-col items-center mt-10">
-                <h2 className="text-2xl font-bold">LA CASA CATRACHA</h2>
-                <p className="text-lg">120 N. Dale Mabry Hwy</p>
+                <h2 className="text-xl font-bold font-splatch">La Casa Catracha</h2>
+                <p className="text-lg mt-2">120 N. Dale Mabry Hwy</p>
                 <p className="text-lg">Tampa, FL 33609</p>
                 <p className="text-lg">(813) 512-7924</p>
                 <div className="flex flex-col items-center mt-10">
-                    <h3 className="text-xl font-bold">HOURS OF OPERATION</h3>
+                    <h3 className="text-lg font-bold font-splatch">HOURS OF OPERATION</h3>
                     <p className="text-lg">Sunday 10AM-9PM</p>
                     <p className="text-lg">Monday 10AM-9PM</p>
                     <p className="text-lg">Tuesday Closed</p>
