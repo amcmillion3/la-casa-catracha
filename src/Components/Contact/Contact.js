@@ -25,7 +25,7 @@ function Contact() {
                 <div className="mt-6">
                     <ul className="flex">
                         <li className="m-4"><a href="https://www.facebook.com/pages/La-Casa-Catracha/">
-                        <img src="https://cdn-icons.flaticon.com/png/512/2504/premium/2504903.png?token=exp=1654784945~hmac=f0f52db4417e41341f06a21713016df7" alt="facebook" height={30} width={30} /></a></li>
+                        <img src="https://cdn-icons.flaticon.com/png/512/2504/premium/2504903.png?token=exp=1654827292~hmac=f867bb97d4c5d9a72a43bae3db49bb54" alt="facebook" height={30} width={30} /></a></li>
                         <li className="m-4"><a href="https://www.instagram.com/lacasacatracha/"><img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png"  alt="instagram" height={30} width={30} /></a></li>
                     </ul>
                 </div>
