@@ -13,7 +13,7 @@ function HomeSlider() {
         dots: true,
         infinite: true,
         autoplay: true,
-        speed: 5000,
+        speed: 4000,
         autoplaySpeed: 3000,
         slidesToShow: 1,
         slidesToScroll: 1
@@ -26,19 +26,19 @@ function HomeSlider() {
             </div>
               <Slider {...settings} >
                 <div>
-                    <img src={food1} alt="food" className="h-full w-full" />
+                    <img src={food1} alt="food" className="h-96 lg:h-screen w-full" />
                 </div>
                 <div>
-                    <img src={food2} alt="food" className="h-full w-full" />
+                    <img src={food2} alt="food" className="h-96 lg:h-screen w-full" />
                 </div>
                 <div>
-                    <img src={food3} alt="food" className="h-full w-full" />
+                    <img src={food3} alt="food" className="h-96 lg:h-screen w-full" />
                 </div>
                 <div>
-                    <img src={food4} alt="food" className="h-full w-full" />
+                    <img src={food4} alt="food" className="h-96 lg:h-screen w-full" />
                 </div>
                 <div>
-                    <img src={food5} alt="food" className="h-full w-full" />
+                    <img src={food5} alt="food" className="h-96 lg:h-screen w-full" />
                 </div>
               </Slider>
           </div>
