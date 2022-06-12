@@ -30,6 +30,7 @@ function Contact() {
                     </ul>
                 </div>
             </div>
+            <footer className="flex justify-center mt-10 bg-catracha-blue text-white">designed and developed by McMillion Media</footer>
         </div>
     )
 }
