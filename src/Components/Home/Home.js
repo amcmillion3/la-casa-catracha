@@ -21,8 +21,10 @@ function HomeSlider() {
       
       return (
           <div className="mt-20">
-              <div className="flex justify-center bg-catracha-blue text-white border-t-4 border-b-4 border-solid border-black h-20 lg:py-16">
-                <h1 className="flex items-center text-2xl lg:text-6xl font-medium font-splatch">Welcome to La Casa Catracha</h1>
+              <div className="flex flex-col items-center justify-center bg-catracha-blue text-white border-t-4 border-b-4 border-solid border-black h-24 lg:flex-row lg:py-16">
+                <p className="flex items-center text-2xl lg:text-6xl font-medium font-splatch mr-6">Welcome to La</p>
+                <p className="flex items-center text-2xl lg:text-6xl font-medium font-splatch mt-2">Casa Catracha</p>
+                {/* <h1 className="flex items-center text-2xl lg:text-6xl font-medium font-splatch">Welcome to La Casa Catracha</h1> */}
             </div>
               <Slider {...settings} >
                 <div>
