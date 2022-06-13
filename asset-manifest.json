@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/la-casa-catracha/static/css/main.6871fed4.css",
+    "main.js": "/la-casa-catracha/static/js/main.054b8953.js",
+    "static/media/food-1.jpeg": "/la-casa-catracha/static/media/food-1.1bb4d975c3e038ee9245.jpeg",
+    "static/media/food-4.jpeg": "/la-casa-catracha/static/media/food-4.a2599a9c862fd17b7699.jpeg",
+    "static/media/food-2.jpeg": "/la-casa-catracha/static/media/food-2.f00b621d91b6b0be359d.jpeg",
+    "static/media/team.jpeg": "/la-casa-catracha/static/media/team.a8882be2222a92eafa84.jpeg",
+    "static/media/food-3.jpeg": "/la-casa-catracha/static/media/food-3.699c5004611cbfe4ffec.jpeg",
+    "static/media/food-5.jpeg": "/la-casa-catracha/static/media/food-5.7c193692a82e78e9a539.jpeg",
+    "static/media/logo-black.jpg": "/la-casa-catracha/static/media/logo-black.c0d828fcdc99ee451768.jpg",
+    "static/media/Splatch.ttf": "/la-casa-catracha/static/media/Splatch.ecd8f046c10daca3142e.ttf",
+    "static/media/slick.svg": "/la-casa-catracha/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/la-casa-catracha/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/la-casa-catracha/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/la-casa-catracha/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/la-casa-catracha/index.html",
+    "main.6871fed4.css.map": "/la-casa-catracha/static/css/main.6871fed4.css.map",
+    "main.054b8953.js.map": "/la-casa-catracha/static/js/main.054b8953.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6871fed4.css",
+    "static/js/main.054b8953.js"
+  ]
+}
