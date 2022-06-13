@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Nav />
-      <Router>
+      <Router basename='https://amcmillion3.github.io/la-casa-catracha'>
         <Routes>
           <Route path='/' element={<HomeSlider />} />
           <Route path='/menu' element={<Menu />} />
