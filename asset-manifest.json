@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/la-casa-catracha/static/css/main.6871fed4.css",
-    "main.js": "/la-casa-catracha/static/js/main.7d1f4a2b.js",
+    "main.js": "/la-casa-catracha/static/js/main.81207e7e.js",
     "static/media/food-1.jpeg": "/la-casa-catracha/static/media/food-1.1bb4d975c3e038ee9245.jpeg",
     "static/media/food-4.jpeg": "/la-casa-catracha/static/media/food-4.a2599a9c862fd17b7699.jpeg",
     "static/media/food-2.jpeg": "/la-casa-catracha/static/media/food-2.f00b621d91b6b0be359d.jpeg",
@@ -16,10 +16,10 @@
     "static/media/slick.woff": "/la-casa-catracha/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/la-casa-catracha/index.html",
     "main.6871fed4.css.map": "/la-casa-catracha/static/css/main.6871fed4.css.map",
-    "main.7d1f4a2b.js.map": "/la-casa-catracha/static/js/main.7d1f4a2b.js.map"
+    "main.81207e7e.js.map": "/la-casa-catracha/static/js/main.81207e7e.js.map"
   },
   "entrypoints": [
     "static/css/main.6871fed4.css",
-    "static/js/main.7d1f4a2b.js"
+    "static/js/main.81207e7e.js"
   ]
 }
